@@ -1,11 +1,33 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
 }
 
+p, a, h1, h2, h3, h4, h5, h6 {
+  font-family: "Metropolis", sans-serif;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("./font/Metropolis-Regular.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Metropolis";
+  src: url("./font/Metropolis-Bold.otf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Metropolis";
+  src: url("./font/Metropolis-ExtraBold.otf");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Metropolis";
+  src: url("./font/Metropolis-Light.otf");
+  font-weight: 100;
+}
 section {
   max-width: 1400px;
   margin: 0 auto;
@@ -24,7 +46,7 @@ section {
 }
 .container .customs {
   border: none;
-  background-color: beige;
+  background-color: white;
   margin-left: 350px;
 }
 .container .navbar a {
@@ -59,7 +81,7 @@ section {
   background-color: #F7F1FF;
   width: 258px;
   height: 40px;
-  padding: 20px;
+  padding: 15px;
   border-radius: 20px;
   gap: 12px;
 }
@@ -80,7 +102,7 @@ section {
 }
 .container .realtim h1 {
   color: #000;
-  font-size: 55px;
+  font-size: 48px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -103,6 +125,18 @@ section {
 .container .starttria {
   width: 142px;
   height: 38px;
+  background-color: #FFF;
+  border-radius: 23px;
+  color: #722ED1;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+}
+.container .starttria:hover {
+  width: 142px;
+  height: 38px;
   background-color: #722ED1;
   border-radius: 23px;
   color: #FFF;
@@ -118,6 +152,18 @@ section {
   background: #FFF;
   border-radius: 23px;
   color: #722ED1;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+}
+.container .learnmorr:hover {
+  width: 142px;
+  height: 38px;
+  background: #722ED1;
+  border-radius: 23px;
+  color: #FFF;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -209,6 +255,7 @@ section {
   height: 494px;
   border-radius: 25px;
   box-shadow: 4px 4px 12px 0px rgba(137, 137, 162, 0.12);
+  margin-left: 65px;
 }
 .container .sevhamm {
   width: 431px;
@@ -336,7 +383,6 @@ section {
 }
 .container .wann2 {
   width: 72px;
-  height: 244px;
 }
 .container .wann2 h5 {
   color: #160637;
@@ -356,7 +402,6 @@ section {
 }
 .container .wann3 {
   width: 121px;
-  height: 132px;
 }
 .container .wann3 h5 {
   color: #160637;
@@ -376,7 +421,6 @@ section {
 }
 .container .wann4 {
   width: 76px;
-  height: 104px;
 }
 .container .wann4 h5 {
   color: #160637;
@@ -396,7 +440,6 @@ section {
 }
 .container .wann5 {
   width: 90px;
-  height: 216px;
 }
 .container .wann5 h5 {
   color: #160637;
@@ -416,7 +459,6 @@ section {
 }
 .container .wann6 {
   width: 180px;
-  height: 200px;
 }
 .container .wann6 h5 {
   color: #160637;
@@ -450,4 +492,126 @@ section {
   margin-top: 35px;
   margin-left: -28px;
   cursor: pointer;
+}
+.container .wann2 .fott {
+  margin-top: 10px;
+}
+.container .section7 {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  gap: 50px;
+}
+.container .product {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background-color: #F9F0FF;
+  width: 224px;
+  height: 40px;
+  border-radius: 25px;
+  padding-left: 20px;
+}
+.container .withbes h1 {
+  margin-top: 24px;
+  color: #160637;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+}
+.container .withbes p {
+  color: #8989A2;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 24px;
+}
+.container .product p {
+  color: #722ED1;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.container .section8 {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+.container .radius {
+  display: flex;
+  align-items: center;
+  gap: 14.78px;
+  background-color: #F9F0FF;
+  width: 258px;
+  height: 40px;
+  border-radius: 25px;
+  padding-left: 20px;
+  color: #722ED1;
+}
+.container .dataa h1 {
+  width: 515px;
+  margin-top: 24px;
+  color: #160637;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  margin-top: 24px;
+}
+.container .dataa p {
+  width: 474px;
+  color: #8989A2;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 24px;
+}
+.container .awns img {
+  width: 470px;
+  height: 414px;
+}
+.container .section9 {
+  margin-top: 100px;
+  text-align: center;
+}
+.container .whatilove h4 {
+  width: 963px;
+  color: #160637;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 32px;
+}
+.container .whatilove img {
+  margin-top: 32px;
+}
+.container .whatilove p {
+  width: 145px;
+  color: #000;
+  text-align: center;
+  font-family: Metropolis;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
+  margin-top: 32px;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+.container .chiz9 {
+  width: 964px;
+  height: 1px;
+  background-color: #DEC9FA;
+  border-radius: 5px;
+  margin-top: 32px;
+}
+.container .tokkenlar {
+  display: flex;
+  gap: 95px;
+  margin-top: 32px;
 }/*# sourceMappingURL=main.css.map */

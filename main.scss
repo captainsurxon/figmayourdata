@@ -1,9 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+  
+}
+p, a,  h1, h2, h3, h4, h5, h6{
+    font-family: "Metropolis" , sans-serif;
+}
+
+@font-face {
+    font-family: "Metropolis";
+    src: url("./font/Metropolis-Regular.otf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Metropolis";
+    src: url("./font/Metropolis-Bold.otf");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Metropolis";
+    src: url("./font/Metropolis-ExtraBold.otf");
+    font-weight: 900;
+}
+@font-face {
+    font-family: "Metropolis";
+    src: url("./font/Metropolis-Light.otf");
+    font-weight: 100;
 }
 
 section{
@@ -16,6 +40,7 @@ padding: 50px 50px 50px 50px;
     width: 963px;
     margin: 0 auto;
     padding-top: 50px;
+   
     .navbar{
         display: flex;
         align-items: center;
@@ -23,7 +48,7 @@ padding: 50px 50px 50px 50px;
     }
     .customs{
         border: none;
-        background-color: beige;
+        background-color: white;
         margin-left: 350px;
     }
     .navbar a{
@@ -59,7 +84,7 @@ padding: 50px 50px 50px 50px;
         background-color: #F7F1FF;
         width: 258px;
         height: 40px;
-        padding: 20px;
+        padding: 15px;
         border-radius: 20px;
         gap: 12px;
     }
@@ -81,7 +106,7 @@ padding: 50px 50px 50px 50px;
     }
     .realtim h1{
     color: #000;
-    font-size: 55px;
+    font-size: 48px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -104,17 +129,31 @@ padding: 50px 50px 50px 50px;
     .starttria{
     width: 142px;
     height: 38px;
-    background-color: #722ED1;
+    background-color: #FFF;
     border-radius: 23px;
-    color: #FFF;
+    color: #722ED1;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     border: none;
     }
-    .learnmorr{
+
+    .starttria:hover{
         width: 142px;
+        height: 38px;
+        background-color: #722ED1;
+        border-radius: 23px;
+        color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        border: none;
+        }
+
+    .learnmorr{
+    width: 142px;
     height: 38px;
     background: #FFF;
     border-radius: 23px;
@@ -125,6 +164,19 @@ padding: 50px 50px 50px 50px;
     line-height: normal;
     border: none;
     }
+
+    .learnmorr:hover{
+        width: 142px;
+        height: 38px;
+        background: #722ED1;
+        border-radius: 23px;
+        color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        border: none;
+        }
 
     .section2{
         margin-top: 112px;
@@ -214,6 +266,7 @@ padding: 50px 50px 50px 50px;
         // padding: 50px;
         border-radius: 25px;
         box-shadow: 4px 4px 12px 0px rgba(137, 137, 162, 0.12);
+        margin-left: 65px;
     }
     .sevhamm{
         width: 431px;
@@ -347,7 +400,6 @@ padding: 50px 50px 50px 50px;
 
     .wann2{
         width: 72px;
-        height: 244px;
     }
     .wann2 h5{
     color: #160637;
@@ -368,7 +420,6 @@ padding: 50px 50px 50px 50px;
 
     .wann3{
         width: 121px;
-        height: 132px;
     }
     .wann3 h5{
     color: #160637;
@@ -389,7 +440,6 @@ padding: 50px 50px 50px 50px;
 
     .wann4{
         width: 76px;
-        height: 104px;
     }
     .wann4 h5{
     color: #160637;
@@ -410,7 +460,6 @@ padding: 50px 50px 50px 50px;
 
     .wann5{
         width: 90px;
-        height: 216px;
     }
     .wann5 h5{
     color: #160637;
@@ -431,7 +480,7 @@ padding: 50px 50px 50px 50px;
 
     .wann6{
         width: 180px;
-        height: 200px;
+
     }
     .wann6 h5{
     color: #160637;
@@ -467,4 +516,147 @@ padding: 50px 50px 50px 50px;
         margin-left: -28px;
         cursor: pointer;
     }
+
+    .wann2 .fott{
+        margin-top: 10px;
+    }
+
+    .section7{
+        display: flex;
+        align-items: center;
+        margin-top: 100px;
+        gap: 50px;
+    }
+    .product{
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        background-color: #F9F0FF;
+        width: 224px;
+        height: 40px;
+        border-radius: 25px;
+        padding-left: 20px;
+    }
+    .withbes h1{
+     margin-top: 24px;
+    color: #160637;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    }
+
+    .withbes p{
+    color: #8989A2;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    margin-top: 24px;
+    }
+
+    .product p{
+    color: #722ED1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+
+    .section8{
+        display: flex;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .radius{
+        display: flex;
+        align-items: center;
+        gap: 14.78px;
+        background-color: #F9F0FF;
+        width: 258px;
+        height: 40px;
+        border-radius: 25px;
+        padding-left: 20px;
+        color: #722ED1;
+    }
+
+    .dataa h1{
+    width: 515px;
+    margin-top: 24px;
+    color: #160637;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    margin-top: 24px;
+    }
+
+    .dataa p{
+    width: 474px;
+    color: #8989A2;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 24px;
+    }
+
+    .awns img{
+    width: 470px;
+    height: 414px;
+    }
+
+    .section9{
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .whatilove h4{
+        width: 963px;
+        color: #160637;
+        text-align: center;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 32px;
+    }
+
+    .whatilove img{
+        margin-top: 32px;
+    }
+
+    .whatilove p{
+    width: 145px;
+    color: #000;
+    text-align: center;
+    font-family: Metropolis;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px;
+    margin-top: 32px;
+    margin: 0 auto;
+    margin-top: 32px;
+    }
+
+    .chiz9{
+    width: 964px;
+    height: 1px;
+    background-color: #DEC9FA;
+    border-radius: 5px;
+    margin-top: 32px;
+    }
+
+    .tokkenlar{
+        display: flex;
+        gap: 95px;
+        margin-top: 32px;
+    }
+
+
+   
+
+    
+
 }
